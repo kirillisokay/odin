@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 def ceaser_cipher(string, shift_factor)
   string_ciphered = string.chars.map do |char|
     base = char.ord < 91 ? 65 : 97
@@ -11,5 +12,5 @@ def ceaser_cipher(string, shift_factor)
   string_ciphered.join
 end
 
-ceaser_cipher("What a string!", 5);
-#"Bmfy f xywnsl!"
+ceaser_cipher('What a string!', 5)
+# "Bmfy f xywnsl!"
