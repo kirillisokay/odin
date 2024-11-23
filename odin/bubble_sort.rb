@@ -10,10 +10,10 @@ def bubble_sort(array)
         swapped = true
       end
     end
-    break if not swapped
+    break unless swapped
   end
   array
 end
 
-p bubble_sort([0,2,2,3,4,78])
+p bubble_sort([0, 2, 2, 3, 4, 78])
 

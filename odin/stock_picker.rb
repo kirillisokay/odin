@@ -1,7 +1,8 @@
 # frozen_string_literal: true
+
 def stock_picker(array)
-  profit =0
-  days = [0,0]
+  profit = 0
+  days = [0, 0]
   array.each_with_index do |buy, index|
     array.each_with_index do |sell, index2|
       next if index2 <= index

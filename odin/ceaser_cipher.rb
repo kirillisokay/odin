@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 def ceaser_cipher(string, shift_factor)
   string_ciphered = string.chars.map do |char|
     base = char.ord < 91 ? 65 : 97
