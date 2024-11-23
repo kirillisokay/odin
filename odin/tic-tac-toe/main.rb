@@ -14,7 +14,7 @@ class TicTacToe
 
   def init
     @player.take_name
-    # @rules.explain_rules
+    @rules.explain_rules
     play_game
   end
 
