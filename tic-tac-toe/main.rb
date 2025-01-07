@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative './lib/player'
+require_relative './lib/ayer'
 require_relative './lib/game_rules'
 require_relative './lib/game'
 
