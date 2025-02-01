@@ -74,5 +74,5 @@ tree.rebalance
 puts "Tree structure after rebalancing:"
 tree.pretty_print
 
-puts "Is the tree balanced after rebalancing? #{tree.balance?}"
+puts "Is the tree balanced after rebalancing? #{tree.balanc?}"
 
